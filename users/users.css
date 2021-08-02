@@ -1,0 +1,25 @@
+body{
+    background: #e7e7e7;
+}
+
+#usersTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.usersBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.userBlock{
+    width: 700px;
+    margin: 5px;
+    background: antiquewhite;
+}
+
+.btn {
+    display: flex;
+}
