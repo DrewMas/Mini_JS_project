@@ -2,8 +2,8 @@ const userBox = document.getElementsByClassName('userBox')[0];
 
 const JSONUser = new URL(location).searchParams.get('user');
 const user = JSON.parse(JSONUser);
-
 console.log(user);
+
 let {
     id,
     name,
@@ -34,9 +34,9 @@ userBox.innerHTML = `User ID: ${id}<br/>
  Catch phrase: ${catchPhrase}<br/>
  BS: ${bs}`;
 
-const btn = document.getElementById('btn');
+const userPostBtn = document.getElementById('btn');
 
-btn.onclick = () => {
+userPostBtn.onclick = () => {
     fetch(`https://jsonplaceholder.typicode.com/users/${user.id}/posts`)
         .then(value => value.json())
         .then(posts => {
@@ -47,6 +47,16 @@ btn.onclick = () => {
                 const postElement = document.createElement('div');
                 postBox.append(postElement);
                 postElement.innerHTML = `${value.id} - ${value.title}`;
+
+                const postDetailsBtn = document.createElement('button');
+                postDetailsBtn.innerText = `Post details`;
+
+                const btnLink = document.createElement('a');
+                btnLink.href = `../post-details/post-details.html?post=${JSON.stringify(value)}`;
+
+                btnLink.append(postDetailsBtn);
+                postElement.append(btnLink);
+                postBox.append(postElement);
 
 
             })
