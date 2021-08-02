@@ -47,9 +47,11 @@ userPostBtn.onclick = () => {
                 const postElement = document.createElement('div');
                 postBox.append(postElement);
                 postElement.innerHTML = `${value.id} - ${value.title}`;
+                postElement.classList.add('postElement');
 
                 const postDetailsBtn = document.createElement('button');
                 postDetailsBtn.innerText = `Post details`;
+                postDetailsBtn.classList.add('btn2');
 
                 const btnLink = document.createElement('a');
                 btnLink.href = `../post-details/post-details.html?post=${JSON.stringify(value)}`;

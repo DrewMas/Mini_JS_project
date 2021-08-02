@@ -7,6 +7,38 @@ body{
     justify-content: center;
 }
 
+.contentMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .userBox {
-    width: 600px;
+    width: fit-content;
+    text-align: center;
+}
+
+#btn {
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.btn2 {
+    border-radius: 10px;
+    height: 30px;
+}
+
+.postBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.postElement {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100px;
 }

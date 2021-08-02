@@ -1,0 +1,26 @@
+body {
+    background: #e7e7e7;
+}
+
+#usersTitle {
+    display: flex;
+    justify-content: center;
+}
+
+#commentsTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.postDetailsBox {
+    margin: 10px;
+}
+
+.commentBox {
+    display: flex;
+}
+
+.commentElement {
+    width: 20%;
+    margin: 10px;
+}

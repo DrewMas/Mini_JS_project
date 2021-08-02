@@ -7,6 +7,7 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
         const userLink = document.createElement('a');
         const userDetailsBtn = document.createElement('button');
         userDetailsBtn.innerText = `User details`;
+        userDetailsBtn.classList.add('btn');
 
         userBlock.innerHTML = `${value.id} - ${value.name}`;
         userLink.href = `../user-details/user-details.html?user=${JSON.stringify(value)}`

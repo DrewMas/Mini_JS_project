@@ -1,4 +1,4 @@
-body{
+body {
     background: #e7e7e7;
 }
 
@@ -7,18 +7,25 @@ body{
     justify-content: center;
 }
 
-.usersBox{
+.usersBox {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.userBlock{
+.userBlock {
     width: 700px;
+    height: 100px;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .btn {
-    display: flex;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
 }
