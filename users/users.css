@@ -1,9 +1,11 @@
 body {
-    background: #80756c;
-    color: white;
+    /*background: #80756c;*/
+    color: black;
     font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
     font-weight: normal;
     font-size: 1.5em;
+    background-image: url("/users/media/image3.jpg");
+    color: white;
 }
 
 #usersTitle {
@@ -34,7 +36,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(45deg, #Bdb7b1, #Aba29b);
+    /*background: linear-gradient(45deg, #Bdb7b1, #Aba29b);*/
+    background: #9c9289;
+    opacity: 60%;
+    box-shadow: 5px 5px 5px white;
 }
 
 .btn {
