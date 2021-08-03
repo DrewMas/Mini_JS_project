@@ -16,8 +16,8 @@ body {
     /*background: linear-gradient(45deg, #Bdb7b1, #Aba29b);*/
     padding: 10px;
     text-align: center;
-    background: #9c9289;
-    opacity: 60%;
+    background: rgba(156, 146, 137, .5);
+
 }
 
 .commentBox {
@@ -35,6 +35,12 @@ body {
     padding: 10px;
     font-size: medium;
     text-align: center;
-    background: #9c9289;
-    opacity: 60%;
+    background: rgba(156, 146, 137, .5);
+
+}
+
+#go-back {
+    background-color: rgba(197, 191, 186, .5);
+    height: 30px;
+    border-radius: 10px;
 }

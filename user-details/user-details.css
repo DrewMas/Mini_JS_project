@@ -28,6 +28,7 @@ body {
 #btn {
     width: 90%;
     height: 30px;
+    border-radius: 10px;
     font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
     font-weight: normal;
     color: #58514a;
@@ -36,11 +37,12 @@ body {
 
 .btn2 {
     width: fit-content;
-    height: 20px;
+    height: 30px;
+    border-radius: 10px;
     font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
     font-weight: normal;
     color: #58514a;
-    background-color: #c5bfba;
+    background-color: rgba(197, 191, 186, .5);
 }
 
 .postBox {
@@ -61,8 +63,8 @@ body {
     margin: 10px;
     padding: 10px;
     font-size: medium;
-    background: #9c9289;
-    opacity: 60%;
+    background: rgba(156, 146, 137, .5);
+
 }
 
 #btn:hover {
@@ -71,4 +73,10 @@ body {
 
 .btn2:hover {
     box-shadow: 5px 5px 15px blanchedalmond;
+}
+
+#go-back {
+    background-color: rgba(197, 191, 186, .5);
+    height: 30px;
+    border-radius: 10px;
 }
