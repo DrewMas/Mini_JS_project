@@ -1,5 +1,6 @@
 body {
-    background: beige;
+    background: #80756c;
+    color: white;
     font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
     font-weight: normal;
 }
@@ -23,17 +24,17 @@ body {
 #btn {
     width: 90%;
     height: 30px;
-    border-radius: 10px;
-    margin: 10px;
     font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
     font-weight: normal;
+    color: #58514a;
 }
 
 .btn2 {
-    border-radius: 10px;
+    width: fit-content;
     height: 20px;
     font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
     font-weight: normal;
+    color: #58514a;
 }
 
 .postBox {
@@ -44,6 +45,7 @@ body {
 
 .postElement {
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     width: 20%;
     height: 100px;
