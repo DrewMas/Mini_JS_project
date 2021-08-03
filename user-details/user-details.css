@@ -46,15 +46,21 @@ body {
 .postBox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 10px;
 }
 
 .postElement {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: column;
-    width: 20%;
-    height: 100px;
+    width: 16%;
+    height: 90px;
+    background: linear-gradient(45deg, #Bdb7b1, #Aba29b);
+    margin: 10px;
+    padding: 10px;
+    font-size: medium;
 }
 
 #btn:hover {
