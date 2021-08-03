@@ -1,5 +1,7 @@
-body{
-    background: #e7e7e7;
+body {
+    background: beige;
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
+    font-weight: normal;
 }
 
 #usersTitle {
@@ -20,14 +22,18 @@ body{
 
 #btn {
     width: 90%;
-    height: 50px;
+    height: 30px;
     border-radius: 10px;
     margin: 10px;
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
+    font-weight: normal;
 }
 
 .btn2 {
     border-radius: 10px;
-    height: 30px;
+    height: 20px;
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
+    font-weight: normal;
 }
 
 .postBox {

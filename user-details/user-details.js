@@ -2,7 +2,6 @@ const userBox = document.getElementsByClassName('userBox')[0];
 
 const JSONUser = new URL(location).searchParams.get('user');
 const user = JSON.parse(JSONUser);
-console.log(user);
 
 let {
     id,

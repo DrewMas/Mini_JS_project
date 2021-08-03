@@ -1,5 +1,7 @@
 body {
-    background: #e7e7e7;
+    background: beige;
+    font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
+    font-weight: normal;
 }
 
 #usersTitle {
@@ -18,6 +20,8 @@ body {
 
 .commentBox {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .commentElement {
