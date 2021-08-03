@@ -1,3 +1,7 @@
+document.getElementById('go-back').addEventListener('click', () => {
+    history.back();
+});
+
 const postDetailsBox = document.getElementsByClassName('postDetailsBox')[0];
 
 const JSONPost = new URL(location).searchParams.get('post');

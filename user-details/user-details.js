@@ -1,3 +1,7 @@
+document.getElementById('go-back').addEventListener('click', () => {
+    history.back();
+});
+
 const userBox = document.getElementsByClassName('userBox')[0];
 
 const JSONUser = new URL(location).searchParams.get('user');
