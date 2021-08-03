@@ -3,6 +3,7 @@ body {
     color: white;
     font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
     font-weight: normal;
+    font-size: 1.3em;
 }
 
 #usersTitle {
@@ -19,6 +20,9 @@ body {
 .userBox {
     width: fit-content;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
 }
 
 #btn {
@@ -27,6 +31,7 @@ body {
     font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
     font-weight: normal;
     color: #58514a;
+    background-color: #c5bfba;
 }
 
 .btn2 {
@@ -35,6 +40,7 @@ body {
     font-family: 'Linux Libertine', 'Georgia', 'Times', 'sans-serif';
     font-weight: normal;
     color: #58514a;
+    background-color: #c5bfba;
 }
 
 .postBox {
@@ -49,4 +55,12 @@ body {
     flex-direction: column;
     width: 20%;
     height: 100px;
+}
+
+#btn:hover {
+    box-shadow: 5px 5px 15px blanchedalmond;
+}
+
+.btn2:hover {
+    box-shadow: 5px 5px 15px blanchedalmond;
 }
